@@ -1,11 +1,9 @@
-﻿Ini adalah dokumentasi untuk pertemuan-03.
+﻿# pertemuan-03
 
-NIM : 25111500043<br>
-NAMA: SATRIA AKBAR<br>
+NIM:2511500043<br>
+NAMA:Satria Akbar<br>
 
-Hari ini, Kamis 09 Oktober 2025,saya belajar:
-<0l>
+Hari ini,Kamis 09 oktober 2025, saya belajar<ol>
 
-  <li>copy isi file emmet.html (pertemuan 02) ke index.html (pertemuan-03)</li>
-  </li>membuat struktur form untuk section contact</li>
-  </ol>
+<li>menggunakan file emmet.htmml pertemuan-02 untuk file index.html pertemuan-03</li>
+</li>
