@@ -7,4 +7,5 @@ Hari ini, Kamis 09 Oktober 2025,saya belajar:
 <0l>
 
   <li>copy isi file emmet.html (pertemuan 02) ke index.html (pertemuan-03)</li>
-  </ol>buat form dan input color</ol>
+  </li>membuat struktur form untuk section contact</li>
+  </ol>
