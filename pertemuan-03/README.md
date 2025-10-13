@@ -15,3 +15,4 @@ Hari ini,Kamis 09 oktober 2025, saya belajar<ol>
 </ol>membuat styling untuk selector ID #about mode responsif (mobile)</li>
 </ol>membuat styling untuk selector ID #contact</li>
 </ol>membuat styling untuk selector ID #contact elemen h2</li>
+</ol>membuat styling untuk selector ID #contact elemen p</li>
