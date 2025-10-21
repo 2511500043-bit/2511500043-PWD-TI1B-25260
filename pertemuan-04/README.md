@@ -1,1 +1,10 @@
-﻿Ini adalah dokumentasi untuk pertemuan-04.
+﻿# pertemuan-04
+
+NIM : 2511500043<br>
+NAMA: SATRIA AKBAR<br>
+
+Hari ini, Rabu 15 Oktober 2025, saya mempelajari:
+
+<ol>
+  <li>copy_paste isi index.html (pertemuan-03) ke index.html (pertemuan-04)</li>
+  </ol>
