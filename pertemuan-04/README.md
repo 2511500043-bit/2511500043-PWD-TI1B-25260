@@ -11,3 +11,4 @@ Hari ini, Rabu 15 Oktober 2025, saya mempelajari:
   </lo>aturan css untuk body dan global reset</lo>
   </lo>styling header</lo>
   </lo>styling footer</lo>
+  </lo>styling navigasi</lo>
