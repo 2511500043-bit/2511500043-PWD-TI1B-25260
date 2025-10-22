@@ -87,7 +87,6 @@ header li a {
             top: 0;
             z-index: 1000;
           }
-        }
 
         header h1 {
           margin: 0 0 8px;
@@ -110,6 +109,7 @@ header li a {
           backdrop-filter: saturate(120%);
         }
         
+      }
         #about p {
             display: flex;
             justify-content: flex-start;
@@ -212,8 +212,6 @@ header li a {
         #contact {
             padding: 16px;
             border-radius: 12px;
-
-
         }
 
         #contact h2 {
