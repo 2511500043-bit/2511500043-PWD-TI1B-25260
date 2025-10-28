@@ -9,11 +9,6 @@ document.getElementById("menuToggle").addEventListener("click", function () {
     }
 });   
         
-
-document.getElementById("menuToggle").addEventListener("click", function () {
-    document.querySelector("nav").classList.toggle("active") ;
-}) ;
-
 document.querySelector("form").addEventListener("submit", function (e) {
     const nama = document.getElementById("txtNama");
     const email = document.getElementById("txtEmail");
@@ -60,7 +55,7 @@ function showError(inputELement, message) {
 
     const small = document.createElement("small");
     small.className = "error-msg";
-    small.textContent =message;
+    small.textContent = message;
 
     small.style.color = "red";
     small.style.fontSize = "14px";
@@ -77,7 +72,7 @@ function showError(inputELement, message) {
 
     inputELement.style.border = "1px solid red";
 
-    alignErrormessage(small, inputELement);
+    alignErrorMessage(small, inputELement);
 }
 
 function alignErrorMessage(smaLLEL, inputEL) {
@@ -101,7 +96,7 @@ function alignErrorMessage(smaLLEL, inputEL) {
 
 window.addEventListener("resize", () => {
     document.querySelectorAll(".error-msg").forEach(smaLL => {
-        const target = document.getElementById(smaLL.dataset.forId);
+        const target = document.getElementById(small.dataset.forId);
         if (target) alignErrorMessage(smaLL,target);   
         });
     });
