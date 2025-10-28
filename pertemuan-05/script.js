@@ -32,7 +32,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
         isValid = false;
 }  
  
-if (email.value.trim() === ""){
+if (email.value.trim() === "") {
     showError(email, "Email wajib diisi.");
     isValid = false;
 }   else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
@@ -56,7 +56,7 @@ function showError(inputELement, message) {
     const label = inputELement.closest("label");
     if (!label) return;
 
-    lebel.style.flexWrap = "wrap";
+    label.style.flexWrap = "wrap";
 
     const small = document.createElement("small");
     small.className = "error-msg";
@@ -80,7 +80,7 @@ function showError(inputELement, message) {
     alignErrormessage(small, inputELement);
 }
 
-function alignErrormessage(smaLLEL, inputEL) {
+function alignErrorMessage(smaLLEL, inputEL) {
     const isMobile = window.matchMedia("(max-width: 600px)").matches;
     if (isMobile) {
         smaLLEL.style.marginLeft = "0";
@@ -100,13 +100,11 @@ function alignErrormessage(smaLLEL, inputEL) {
 }
 
 window.addEventListener("resize", () => {
-    document.querySelectorAll("error-msg").forEach(smaLL => {
-        const target = document.getElementById(smaLL.dataset.forid);
-        if (target) alignErrormessage(smaLL,target);   
+    document.querySelectorAll(".error-msg").forEach(smaLL => {
+        const target = document.getElementById(smaLL.dataset.forId);
+        if (target) alignErrorMessage(smaLL,target);   
         });
     });
-
-    document.addEventListener("DOMContentLoaded", function () {
         
         function setupCharCountLayout() {
             const label = document.querySelector('label[for="txtPesan"]');
@@ -114,7 +112,8 @@ window.addEventListener("resize", () => {
             
             let wrapper = label.querySelector('[data-wrapper="pesan-wrapper"]');
             const span = label.querySelector('span');
-            const textarea = document.getElementById('charCount');
+            const textarea = document.getElementById('txtPesan');
+            const counter = document.getElementById('charCount');
             if (!span || !textarea || !counter)return; 
 
             if (!wrapper) {
@@ -188,7 +187,8 @@ window.addEventListener("resize", () => {
             setupCharCountLayout();
 
             window.addEventListener('resize', applyResponsiveLayout);
-
+            
+            document.addEventListener("DOMContentLoaded", function () {
         const homeSection = document.getElementById("home");
         const ucapan = document.createElement("p");
         ucapan.textContent = "Halo! Selamat datang di halaman saya!";
