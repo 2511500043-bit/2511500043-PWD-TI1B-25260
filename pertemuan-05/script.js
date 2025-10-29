@@ -111,7 +111,8 @@ document,addEventListener("DOMContentLoaded", function() {
         const span = label.querySelector('span');
         const textarea = document.getElementById('txtPesan');
         const counter = document.getElementById('charCount');
-        if (!span || !textarea || !counter) return;
+        if (textarea && counter) {
+        }
 
         if (!wrapper) {
             wrapper = document.createElement('div');
@@ -192,6 +193,6 @@ document,addEventListener("DOMContentLoaded", function() {
 });
 
 document.getElementById("txtPesan").addEventListener("input", function() {
-    const panjang = this.value.lenght;
+    const panjang = this.value.length;
     document.getElementById("charCount").textContent = panjang + "/200 karakter";
 });
