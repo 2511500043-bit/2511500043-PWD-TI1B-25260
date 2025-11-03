@@ -9,3 +9,4 @@ belajar:<br>
 <ol>
   <li>echo di hello.php<li>
   </ol>
+  <li>copy index.html, style.css script.js<li>
