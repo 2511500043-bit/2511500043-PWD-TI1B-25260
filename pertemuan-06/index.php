@@ -167,7 +167,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 Steven Marcelino [2511500057]</p>
+        <p>&copy; 2025 Satria Akbar[2511500043]</p>
     </footer>
 
     <script src="script.js"></script>

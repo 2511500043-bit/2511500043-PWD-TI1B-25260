@@ -1,1 +1,11 @@
-﻿Ini adalah dokumentasi untuk pertemuan-07.
+﻿# pertemuan-06
+
+hari ini,kamis 30 oktober 2025
+Nama: Satria Akbar<br>
+NIM: 2511500043<br>
+<br>
+belajar:<br>
+
+<ol>
+   <li>copy seluruh file dari elearning (punya dosen) untuk latihan pertemuan-07</li>
+   <ol>
