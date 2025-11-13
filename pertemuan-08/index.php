@@ -52,17 +52,36 @@ endif;
       <p>Ini contoh paragraf HTML.</p>
     </section>
     
-    <section id="Entry Data Mahasiswa">
-      <?php
+    <section id="Entrydata">
+      <h2>Entry Data Mahasiswa</h2>
+
+
+      <label for="txtNama"><span>Nama:</span>
+          <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
+        </label>
+
+        <label for="txtEmail"><span>Email:</span>
+          <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
+        </label>
+
+        <label for="txtPesan"><span>Pesan Anda:</span>
+          <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
+          <small id="charCount">0/200 karakter</small>
+        </label>
+      
+        
+        
       
 
+
+
     <section id="about">
-      <?php
-      $nim = 2511500010;
-      $NIM = '0344300002';
-      $nama = "Say'yid Abdullah";
-      $Nama = 'Al\'kautar Benyamin';
-      $tempat = "Jebus";
+      ?>
+      $nim = 2511500043;
+      $NIM = '2511500043';
+      $nama = "Satria Akbar";
+      $Nama = 'Satria Akbar';
+      $tempat = "Batam";
       ?>
       <h2>Tentang Saya</h2>
       <p><strong>NIM:</strong>
