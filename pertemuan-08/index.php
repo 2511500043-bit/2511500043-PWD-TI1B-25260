@@ -52,32 +52,46 @@ endif;
       <p>Ini contoh paragraf HTML.</p>
     </section>
     
-    <section id="Entrydata">
+    <section id="datamahasiswa">
       <h2>Entry Data Mahasiswa</h2>
+      <form action="" method="POST">
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" placeholder="Masukkan NIM" required>
 
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
 
-      <label for="txtNama"><span>Nama:</span>
-          <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
-        </label>
+        <label for="tempat_lahir">Tempat Lahir:</label>
+        <input type="text" id="tempat_lahir" name="tempat_lahir" required>
 
-        <label for="txtEmail"><span>Email:</span>
-          <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
-        </label>
+        <label for="tanggal_lahir">Tanggal Lahir:</label>
+        <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
 
-        <label for="txtPesan"><span>Pesan Anda:</span>
-          <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
-          <small id="charCount">0/200 karakter</small>
-        </label>
-      
+        <label for="hobi">Hobi:</label>
+        <input type="text" id="hobi" name="hobi">
 
+        <label for="pasangan">Pasangan:</label>
+        <input type="text" id="pasangan" name="pasangan">
 
+        <label for="pekerjaan">Pekerjaan:</label>
+        <input type="text" id="pekerjaan" name="pekerjaan">
 
+        <label for="nama_ortu">Nama Orang Tua:</label>
+        <input type="text" id="nama_ortu" name="nama_ortu">
+
+        <label for="nama_kakak">Nama Kakak:</label>
+        <input type="text" id="nama_kakak" name="nama_kakak">
+
+        <label for="nama_adik">Nama Adik:</label>
+        <input type="text" id="nama_adik" name="nama_adik">
+
+        <div class="button-group">
+          <button type="submit">Kirim</button>
+          <button type="reset">Batal</button>
+        </div>
+      </form>
+    </section>
     <section id="about">
-      ?>
-      $NIM = '2511500043';
-      $Nama = 'Satria Akbar';
-      $tempat = "Batam";
-      ?>
       <h2>Tentang Saya</h2>
       <p><strong>NIM:</strong>
         <?php
