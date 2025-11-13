@@ -69,9 +69,6 @@ endif;
           <small id="charCount">0/200 karakter</small>
         </label>
       
-        
-        
-      
 
 
 

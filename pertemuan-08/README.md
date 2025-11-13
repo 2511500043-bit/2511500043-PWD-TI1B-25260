@@ -11,3 +11,4 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
   <li>silahkan diisi sesuai proses pengerjaan kalian masing-masing</li>
   <li>menambahkan nama,nim,tempat dan tanggal lahir di proses.php</li>
+  <li>menambahkan entrydata</li>
