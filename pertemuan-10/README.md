@@ -8,3 +8,4 @@ belajar:<br>
 
 <li>simpan file koneksi.php</li>
 <li>menambahkan database name</li>
+<li>menambahkan query</li>
