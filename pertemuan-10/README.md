@@ -7,3 +7,4 @@ NIM: 2511500043<br>
 belajar:<br>
 
 <li>simpan file koneksi.php</li>
+<li>menambahkan database name</li>
