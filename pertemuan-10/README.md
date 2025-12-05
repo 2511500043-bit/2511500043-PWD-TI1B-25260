@@ -1,4 +1,4 @@
-﻿# pertemuan-06
+﻿# pertemuan-10
 
 hari ini,kamis 6 November 2025
 Nama: Satria Akbar<br>
@@ -10,3 +10,4 @@ belajar:<br>
 <li>menambahkan database name</li>
 <li>menambahkan query</li>
 <li>menambahkan read.php</li>
+<li>menambahkan phpmyadmin</li>
