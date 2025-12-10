@@ -13,3 +13,4 @@ belajar:<br>
 <li>menambahkan phpmyadmin</li>
 <li>mengubah read.php menjadi read_inc.php</li>
 <li>menambahkan kode pada index.php</li>
+<li>menghapus kode pada index.php</li>
