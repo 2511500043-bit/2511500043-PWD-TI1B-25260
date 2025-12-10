@@ -12,3 +12,4 @@ belajar:<br>
 <li>menambahkan read.php</li>
 <li>menambahkan phpmyadmin</li>
 <li>mengubah read.php menjadi read_inc.php</li>
+<li>menambahkan kode pada index.php</li>
