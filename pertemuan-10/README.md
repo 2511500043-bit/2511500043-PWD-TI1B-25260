@@ -11,3 +11,4 @@ belajar:<br>
 <li>menambahkan query</li>
 <li>menambahkan read.php</li>
 <li>menambahkan phpmyadmin</li>
+<li>mengubah read.php menjadi read_inc.php</li>
